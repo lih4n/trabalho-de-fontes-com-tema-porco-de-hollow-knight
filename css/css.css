@@ -1,13 +1,12 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: Perpetua;
-    src: url(../Fonts/Perpetua.ttf/perpetua.ttf);
+body{
+    text-align: center;
 }
 #video-fundo {
 position: fixed;
@@ -20,10 +19,13 @@ border: none;
 z-index: -1;
 pointer-events: none;
 }
-header{
-    text-align: center;
+.logo1{
+    width: 850px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin: 0 auto;
 }
-body::before {
+header{
     text-align: center;
 }
 h1{
@@ -31,18 +33,9 @@ h1{
     font-size: 100px;
     margin: 30px auto 65px 30px;
 }
-.logo1{
-    width: 850px;
-    margin-top: 15px;
-    margin-right: 5px;
-}
 .moldura1{
     width: 940px;
-    margin-left: 480px;
-}
-.moldura2{
-    width: 940px;
-    margin-left: 480px;
+    margin: 0 auto;
 }
 section{
     min-width: 600px;
@@ -55,11 +48,21 @@ section{
     padding: 20px;
     text-align: center;
 }
+.primeiraFonte{
+    font-family: 'Angkor', sans-serif;
+}
+.segundaFonte{
+    font-family: 'Noto', sans-serif;
+}
+.terceiraFonte{
+    font-family: 'Exile', sans-serif;
+}
 section h2{
     font-size: 40px;
 }
-.primeiraFonte{
-    font-family: Perpetua;
+.moldura2{
+    width: 940px;
+    margin: 0 auto
 }
 footer{
     margin-top: 60px;
